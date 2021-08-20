@@ -59,7 +59,7 @@ app.delete("/form/delete-details/:id", (req, res) => {
   return res.sendStatus(401);
 });
 
-app.post("/database/update", (req, res) => {
+app.post("/form/save-details", (req, res) => {
   try {
     var sql = "insert into vitasoftdb SET?";
 
@@ -87,7 +87,7 @@ app.post("/database/update", (req, res) => {
 app.get("/user/list", (req, res) => {
   try {
     var sql1 =
-      "select firstname,middlename,lastname,address,country,state,zipcode,email,phonenumber,height,weight from vitasoftdb ";
+      "select id,firstname,middlename,lastname,address,country,state,zipcode,email,phonenumber,height,weight from vitasoftdb ";
 
     mysqlcon.query(sql1, function (err, data) {
       if (err) throw err;
