@@ -1,0 +1,177 @@
+body{
+    background-color: #25274d;
+}
+.contact{
+    padding: 4%;
+    height: 400px;
+    margin: 0 0 0 320px;
+}
+.col-md-3{
+    background: #ff9b00;
+    padding: 4%;
+    border-top-left-radius: 0.5rem;
+    border-bottom-left-radius: 0.5rem;
+}
+.contact-info{
+    margin-top:10%;
+}
+.contact-info img{
+    margin-bottom: 15%;
+}
+.contact-info h2{
+    margin-bottom: 10%;
+}
+.col-md-9{
+    background: #fff;
+    padding: 3%;
+    border-top-right-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+}
+.contact-form label{
+    font-weight:600;
+}
+.contact-form button{
+    background: #25274d;
+    color: #fff;
+    font-weight: 600;
+    width: 25%;
+}
+.contact-form button:focus{
+    box-shadow:none;
+}
+
+#address{
+
+
+    height: 70px;
+    width: 700px;
+}
+
+#fname{
+
+    width:200px;
+    margin: 0 0 0 0px;
+}
+
+#mname{
+
+    width:200px;
+}
+
+#lname{
+
+    width:200px;
+}
+
+#number{
+
+    width:200px;
+    margin: 2px 0 0 0px;
+}
+
+#email{
+
+    width:300px;
+    
+}
+
+#phno{
+
+    width:200px;
+    margin: 8px 0 0 80px;
+    
+}
+
+#lpno{
+
+    
+    margin: 0px 0 0 80px;
+
+}
+
+
+
+#slect1{
+
+    width: 220px;
+    height: 37px;
+    border-color: rgb(218, 213, 213);
+    border-radius: 5px;
+    color: rgb(119, 117, 117);
+    margin: 5px 0 0 0px; 
+}
+
+#slect2{
+
+    width: 200px;
+    height: 37px;
+    border-color: rgb(218, 213, 213);
+    border-radius: 5px;
+    color: rgb(119, 117, 117);
+    margin: 11px 0 0 10px; 
+}
+
+#cl{
+
+    width:300px;
+
+}
+
+#zipcode{
+
+    width:180px;
+    margin: 5px 0 0 0px;
+    
+}
+
+#lst{
+
+    
+    margin: 2px 0 0 10px;
+
+}
+
+#zpc{
+
+    
+    margin: 2px 0 0 10px;
+
+}
+
+#od{
+
+    background-color: rgba(5, 9, 66, 0.884);
+    width: 690px;
+    height: 300px;
+    margin: 20px 6px 6px 0px;
+    z-index: 9;
+    border-radius: 5px;
+}
+
+button::hover{
+
+    color: white;
+}
+
+.select2-container--default .select2-selection--single{
+
+    height: 37px !important;
+    margin-top: 10px;
+    border: 1px solid #e1dddd !important;
+    
+}
+
+#dis{
+
+    font-size: smaller;
+    color: #25274d;
+  
+}
+
+table, th, td {
+    border: 1px solid black;
+    padding: 0px 0 0 0px;
+    margin: 0 0 0 0;
+    width: 700px;
+  
+  }

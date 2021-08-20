@@ -1,0 +1,27 @@
+{
+  "name": "vita-soft-backend",
+  "version": "1.0.0",
+  "description": "vita-soft-backend",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KARTHIKEYAN-SRIRAM-V/vita-soft-backend.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KARTHIKEYAN-SRIRAM-V/vita-soft-backend/issues"
+  },
+  "homepage": "https://github.com/KARTHIKEYAN-SRIRAM-V/vita-soft-backend#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "db-migrate": "^0.11.12",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mysql": "^2.18.1",
+    "nodemon": "^2.0.12"
+  }
+}
